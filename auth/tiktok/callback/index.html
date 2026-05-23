@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting back to OmniSync local dashboard...</p>
+  <script>
+    const params = window.location.search;
+    window.location.href = "http://localhost:5000/auth/tiktok/callback" + params;
+  </script>
+</body>
+</html>
